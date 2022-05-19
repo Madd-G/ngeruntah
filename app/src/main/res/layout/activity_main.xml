@@ -46,7 +46,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="AHGDSAJFA"
+                    android:text="John Doe"
                     android:textColor="@color/white"
                     android:textSize="26sp"
                     android:textStyle="bold" />

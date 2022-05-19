@@ -91,12 +91,12 @@
                             android:id="@+id/signin_signup_txt"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
                             android:text="Sign in"
                             android:textAlignment="center"
                             android:textColor="#000000"
                             android:textSize="24dp"
-                            android:textStyle="bold"
-                            android:gravity="center_horizontal" />
+                            android:textStyle="bold" />
 
                         <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
@@ -106,14 +106,14 @@
                             <EditText
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:drawablePadding="16dp"
                                 android:drawableStart="@drawable/ic_email_light_blue_24dp"
+                                android:drawableLeft="@drawable/ic_email_light_blue_24dp"
+                                android:drawablePadding="16dp"
                                 android:hint="Email"
                                 android:inputType="textEmailAddress"
                                 android:maxLines="1"
                                 android:textColor="@android:color/black"
-                                android:textSize="16sp"
-                                android:drawableLeft="@drawable/ic_email_light_blue_24dp" />
+                                android:textSize="16sp" />
                         </com.google.android.material.textfield.TextInputLayout>
 
                         <com.google.android.material.textfield.TextInputLayout
@@ -126,14 +126,14 @@
                                 android:id="@+id/password"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:drawablePadding="16dp"
                                 android:drawableStart="@drawable/ic_lock_light_blue_24dp"
+                                android:drawableLeft="@drawable/ic_lock_light_blue_24dp"
+                                android:drawablePadding="16dp"
                                 android:hint="Password"
                                 android:inputType="textPassword"
                                 android:maxLines="1"
                                 android:textColor="@android:color/black"
-                                android:textSize="16sp"
-                                android:drawableLeft="@drawable/ic_lock_light_blue_24dp" />
+                                android:textSize="16sp" />
                         </com.google.android.material.textfield.TextInputLayout>
 
                         <Button
@@ -141,11 +141,11 @@
                             android:layout_width="210dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginBottom="16dp"
                             android:layout_marginTop="24dp"
+                            android:layout_marginBottom="16dp"
                             android:background="@drawable/buttonshape"
-                            android:drawableLeft="@drawable/ic_touch_app_white_24dp"
                             android:drawableStart="@drawable/ic_touch_app_white_24dp"
+                            android:drawableLeft="@drawable/ic_touch_app_white_24dp"
                             android:paddingLeft="16dp"
                             android:paddingRight="16dp"
                             android:text="Sign In"
@@ -159,12 +159,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="32dp"
+                            android:gravity="center_horizontal"
                             android:text="Forgot your password?"
                             android:textAlignment="center"
                             android:textColor="#4f4f4f"
                             android:textSize="16sp"
-                            android:textStyle="bold"
-                            android:gravity="center_horizontal" />
+                            android:textStyle="bold" />
 
                     </LinearLayout>
 

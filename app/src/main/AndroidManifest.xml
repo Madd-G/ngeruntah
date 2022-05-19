@@ -30,6 +30,21 @@
             android:exported="false">
 
         </activity>
+
+        <activity
+            android:name=".view.InputDataActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".view.JenisSampahActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".view.RiwayatActivity"
+            android:exported="false">
+        </activity>
     </application>
 
 </manifest>

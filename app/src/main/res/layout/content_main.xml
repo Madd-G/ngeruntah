@@ -22,6 +22,7 @@
             app:cardElevation="5dp">
 
             <LinearLayout
+                android:id="@+id/jemput_sampah"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -60,6 +61,7 @@
             app:cardElevation="5dp">
 
             <LinearLayout
+                android:id="@+id/jenis_sampah"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -105,6 +107,7 @@
             app:cardElevation="5dp">
 
             <LinearLayout
+                android:id="@+id/saldo_riwayat"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
