@@ -5,10 +5,12 @@
       <map>
         <entry key="app/src/main/res/drawable/bg_rounded_bottom.xml" value="0.207" />
         <entry key="app/src/main/res/drawable/bordershape.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/buttonshape.xml" value="0.2765" />
         <entry key="app/src/main/res/drawable/ic_back.xml" value="0.208" />
         <entry key="app/src/main/res/layout/activity_input_data.xml" value="0.27447916666666666" />
         <entry key="app/src/main/res/layout/activity_jenis_sampah.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login_signup_page.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_riwayat.xml" value="0.27447916666666666" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.25" />

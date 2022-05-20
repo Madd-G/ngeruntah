@@ -21,8 +21,8 @@ class LoginSignupPage : AppCompatActivity() {
 
         signin.setOnClickListener {
             signin.setTextColor(Color.parseColor("#FFFFFF"))
-            signin.setBackgroundColor(Color.parseColor("#FF2729C3"))
-            signup.setTextColor(Color.parseColor("#FF2729C3"))
+            signin.setBackgroundColor(Color.parseColor("#B75F43"))
+            signup.setTextColor(Color.parseColor("#B75F43"))
             signup.setBackgroundResource(R.drawable.bordershape)
             circleImageView.setImageResource(R.drawable.signin_boy_img)
             signin_signup_txt.text = "Sign In"
@@ -31,8 +31,8 @@ class LoginSignupPage : AppCompatActivity() {
         }
         signup.setOnClickListener {
             signup.setTextColor(Color.parseColor("#FFFFFF"))
-            signup.setBackgroundColor(Color.parseColor("#FF2729C3"))
-            signin.setTextColor(Color.parseColor("#FF2729C3"))
+            signup.setBackgroundColor(Color.parseColor("#B75F43"))
+            signin.setTextColor(Color.parseColor("#B75F43"))
             signin.setBackgroundResource(R.drawable.bordershape)
             circleImageView.setImageResource(R.drawable.signup_boy_img)
             signin_signup_txt.text = "Sign Up"
