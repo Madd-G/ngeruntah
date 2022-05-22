@@ -14,8 +14,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ngeruntah">
-        android:usesCleartextTraffic="true"
-        tools:targetApi="s">
+        <activity
+            android:name=".view.UserNgeruntah2"
+            android:exported="false" />
         <activity
             android:name=".view.LoginSignupPage"
             android:exported="true">
@@ -27,24 +28,16 @@
         </activity>
         <activity
             android:name=".view.MainActivity"
-            android:exported="false">
-
-        </activity>
-
+            android:exported="false"></activity>
         <activity
             android:name=".view.InputDataActivity"
-            android:exported="false">
-        </activity>
-
+            android:exported="false"></activity>
         <activity
             android:name=".view.JenisSampahActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".view.RiwayatActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"></activity>
     </application>
 
 </manifest>
