@@ -128,12 +128,6 @@ class InputDataActivity : AppCompatActivity() {
         }
     }
 
-
-    private fun setTotalPrice(berat: Int) {
-        countTotal = countHarga * berat
-        inputHarga.setText(rupiahFormat(countTotal))
-    }
-
     private fun setInputData() {
         btnCheckout.setOnClickListener { v: View? ->
             strNama = inputNama.text.toString()
@@ -173,19 +167,6 @@ class InputDataActivity : AppCompatActivity() {
                 return true
             }
             return super.onOptionsItemSelected(item)
-        }
-
-        companion object {
-            fun setWindowFlag(activity: Activity, bits: Int, on: Boolean) {
-                val window = activity.window
-                val layoutParams = window.attributes
-                if (on) {
-                    layoutParams.flags = layoutParams.flags or bits
-                } else {
-                    layoutParams.flags = layoutParams.flags and bits.inv()
-                }
-                window.attributes = layoutParams
-            }
         }
 
 }
