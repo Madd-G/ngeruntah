@@ -1,10 +1,14 @@
 package com.example.ngeruntah.view
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ngeruntah.R
+import kotlinx.android.synthetic.main.activity_input_data.*
 import kotlinx.android.synthetic.main.activity_jenis_sampah.*
+import kotlinx.android.synthetic.main.activity_jenis_sampah.toolbar
+import kotlinx.android.synthetic.main.content_main.*
 
 
 class InputDataActivity : AppCompatActivity() {
@@ -12,6 +16,11 @@ class InputDataActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_input_data)
         setToolbar()
+
+        btnCheckout.setOnClickListener{
+            val intent = Intent(this, RiwayatActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun setToolbar() {
