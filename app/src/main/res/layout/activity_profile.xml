@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -59,8 +58,6 @@
                         android:orientation="vertical"
                         android:padding="16dp">
 
-
-
                         <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -71,11 +68,13 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:drawablePadding="16dp"
-                                android:hint="Username"
+                                android:hint="@string/username"
                                 android:inputType="textPersonName"
                                 android:maxLines="1"
                                 android:textColor="@android:color/black"
-                                android:textSize="16sp" />
+                                android:textSize="16sp"
+                                android:autofillHints="username"
+                                />
                         </com.google.android.material.textfield.TextInputLayout>
                         <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
@@ -86,11 +85,12 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:drawablePadding="16dp"
-                                android:hint="Email"
+                                android:hint="@string/email"
                                 android:inputType="textEmailAddress"
                                 android:maxLines="1"
                                 android:textColor="@android:color/black"
-                                android:textSize="16sp" />
+                                android:textSize="16sp"
+                                android:autofillHints="emailAddress"/>
                         </com.google.android.material.textfield.TextInputLayout>
 
                         <com.google.android.material.textfield.TextInputLayout
@@ -102,11 +102,12 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:drawablePadding="16dp"
-                                android:hint="Nomor Telepon"
+                                android:hint="@string/nomor_telepon"
                                 android:inputType="text|number"
                                 android:maxLines="1"
                                 android:textColor="@android:color/black"
-                                android:textSize="16sp" />
+                                android:textSize="16sp"
+                                android:autofillHints="phone"/>
                         </com.google.android.material.textfield.TextInputLayout>
 
                         <com.google.android.material.textfield.TextInputLayout
@@ -118,25 +119,26 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:drawablePadding="16dp"
-                                android:hint="Jenis Kelamin"
+                                android:hint="@string/jenis_kelamin"
                                 android:inputType="text"
                                 android:maxLines="1"
                                 android:textColor="@android:color/black"
-                                android:textSize="16sp" />
+                                android:textSize="16sp"
+                                android:autofillHints="sex"/>
                         </com.google.android.material.textfield.TextInputLayout>
 
 
-                        <TextView
-                            android:id="@+id/forgot_password"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="32dp"
-                            android:gravity="center_horizontal"
-                            android:text="Ngeruntah By Sc1"
-                            android:textAlignment="center"
-                            android:textColor="#4f4f4f"
-                            android:textSize="16sp"
-                            android:textStyle="bold" />
+<!--                        <TextView-->
+<!--                            android:id="@+id/forgot_password"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginBottom="32dp"-->
+<!--                            android:gravity="center_horizontal"-->
+<!--                            android:text="Ngeruntah By Sc1"-->
+<!--                            android:textAlignment="center"-->
+<!--                            android:textColor="#4f4f4f"-->
+<!--                            android:textSize="16sp"-->
+<!--                            android:textStyle="bold" />-->
                     </LinearLayout>
 
                 </RelativeLayout>

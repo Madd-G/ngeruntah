@@ -3,25 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-<<<<<<< HEAD
         <entry key="..\:/Users/Chandra/TUBES PPB/ngeruntah/app/src/main/res/layout/activity_input_data.xml" value="0.25" />
-=======
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/drawable/ic_baseline_contact_mail_24.xml" value="0.1" />
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/drawable/ic_baseline_duo_24.xml" value="0.1" />
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/drawable/ic_baseline_more_horiz_24.xml" value="0.172" />
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/drawable/ic_baseline_new_releases_24.xml" value="0.172" />
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/drawable/ic_baseline_star_border_24.xml" value="0.1" />
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/drawable/ic_email_light_blue_24dp.xml" value="0.1225" />
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/layout/activity_login_signup_page.xml" value="0.25" />
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/layout/activity_userngeruntah.xml" value="0.25" />
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/layout/item1.xml" value="0.21" />
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/layout/item2.xml" value="0.17074275362318841" />
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/layout/item3.xml" value="0.17074275362318841" />
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/layout/user.xml" value="0.1287568306010929" />
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/layout/userngeruntah.xml" value="0.33" />
-        <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/menu/menu_main.xml" value="0.22" />
->>>>>>> 6e383dff3901c21d8362fb48b839d8d23fe1be46
         <entry key="app/src/main/res/drawable/bg_rounded_bottom.xml" value="0.207" />
         <entry key="app/src/main/res/drawable/bordershape.xml" value="0.1715" />
         <entry key="app/src/main/res/drawable/buttonshape.xml" value="0.2765" />
@@ -35,6 +17,7 @@
         <entry key="app/src/main/res/layout/content_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/list_item_riwayat.xml" value="0.27447916666666666" />
         <entry key="app/src/main/res/layout/signin_signup.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/userngeruntah.xml" value="0.2125" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.19114583333333332" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.27447916666666666" />
       </map>

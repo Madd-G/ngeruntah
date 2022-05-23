@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.example.ngeruntah.R
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +23,10 @@ class MainActivity : AppCompatActivity() {
         }
         saldo_riwayat.setOnClickListener{
             val intent = Intent(this, RiwayatActivity::class.java)
+            startActivity(intent)
+        }
+            profile_icon.setOnClickListener{
+            val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
     }
