@@ -127,18 +127,32 @@
                                 android:autofillHints="sex"/>
                         </com.google.android.material.textfield.TextInputLayout>
 
-
-<!--                        <TextView-->
-<!--                            android:id="@+id/forgot_password"-->
-<!--                            android:layout_width="match_parent"-->
-<!--                            android:layout_height="wrap_content"-->
-<!--                            android:layout_marginBottom="32dp"-->
-<!--                            android:gravity="center_horizontal"-->
-<!--                            android:text="Ngeruntah By Sc1"-->
-<!--                            android:textAlignment="center"-->
-<!--                            android:textColor="#4f4f4f"-->
-<!--                            android:textSize="16sp"-->
-<!--                            android:textStyle="bold" />-->
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnCheckout"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_margin="30dp"
+                            android:text="@string/edit_profile"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:theme="@style/Theme.MaterialComponents"
+                            app:backgroundTint="@color/colorPrimary"
+                            app:cornerRadius="10dp"
+                            app:elevation="5dp"
+                            app:rippleColor="@color/colorPrimaryDark" />
+                        <!--                        <TextView-->
+                        <!--                            android:id="@+id/forgot_password"-->
+                        <!--                            android:layout_width="match_parent"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            android:layout_marginBottom="32dp"-->
+                        <!--                            android:gravity="center_horizontal"-->
+                        <!--                            android:text="Ngeruntah By Sc1"-->
+                        <!--                            android:textAlignment="center"-->
+                        <!--                            android:textColor="#4f4f4f"-->
+                        <!--                            android:textSize="16sp"-->
+                        <!--                            android:textStyle="bold" />-->
                     </LinearLayout>
 
                 </RelativeLayout>

@@ -5,13 +5,19 @@ import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ngeruntah.R
-import kotlinx.android.synthetic.main.activity_jenis_sampah.*
+import kotlinx.android.synthetic.main.activity_jenis_sampah.toolbar
+import kotlinx.android.synthetic.main.activity_riwayat.*
 
 class RiwayatActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_riwayat)
         setToolbar()
+
+        btnCheckout.setOnClickListener{
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun setToolbar() {

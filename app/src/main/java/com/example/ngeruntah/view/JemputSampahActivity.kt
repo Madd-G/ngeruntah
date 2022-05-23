@@ -1,6 +1,5 @@
 package com.example.ngeruntah.view
 
-import android.app.Activity
 import android.app.DatePickerDialog
 import android.content.Intent
 import android.os.Bundle
@@ -15,15 +14,14 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.example.ngeruntah.R
-import com.example.ngeruntah.view.InputDataActivity.FunctionHelper.rupiahFormat
-import kotlinx.android.synthetic.main.activity_input_data.*
+import kotlinx.android.synthetic.main.activity_jemput_sampah.*
 import kotlinx.android.synthetic.main.activity_jenis_sampah.toolbar
 import java.text.DecimalFormat
 import java.text.SimpleDateFormat
 import java.util.*
 
 
-class InputDataActivity : AppCompatActivity() {
+class JemputSampahActivity : AppCompatActivity() {
 
     lateinit var inputDataViewModel: InputDataViewModel
     lateinit var strNama: String
@@ -38,17 +36,9 @@ class InputDataActivity : AppCompatActivity() {
     var countBerat = 0
     var countHarga = 0
 
-    object FunctionHelper {
-
-        fun rupiahFormat(price: Int): String {
-            val formatter = DecimalFormat("#,###")
-            return "Rp " + formatter.format(price.toLong())
-        }
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_input_data)
+        setContentView(R.layout.activity_jemput_sampah)
         setToolbar()
         setInitLayout()
         setInputData()
@@ -77,7 +67,7 @@ class InputDataActivity : AppCompatActivity() {
         ).get(InputDataViewModel::class.java)
 
         val arrayBahasa =
-            ArrayAdapter(this@InputDataActivity, android.R.layout.simple_list_item_1, strKategori)
+            ArrayAdapter(this@JemputSampahActivity, android.R.layout.simple_list_item_1, strKategori)
         arrayBahasa.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spKategori.setAdapter(arrayBahasa)
 
@@ -120,7 +110,7 @@ class InputDataActivity : AppCompatActivity() {
                     inputTanggal.setText(simpleDateFormat.format(tanggalJemput.time))
                 }
             DatePickerDialog(
-                this@InputDataActivity, date,
+                this@JemputSampahActivity, date,
                 tanggalJemput[Calendar.YEAR],
                 tanggalJemput[Calendar.MONTH],
                 tanggalJemput[Calendar.DAY_OF_MONTH]
@@ -136,7 +126,7 @@ class InputDataActivity : AppCompatActivity() {
             strCatatan = inputTambahan.text.toString()
             if (strNama.isEmpty() or strTanggal.isEmpty() or strAlamat.isEmpty() or (strKategori.size == 0) or (countBerat == 0) or (countHarga == 0)) {
                 Toast.makeText(
-                    this@InputDataActivity,
+                    this@JemputSampahActivity,
                     "Data tidak boleh ada yang kosong!",
                     Toast.LENGTH_SHORT
                 ).show()
@@ -151,7 +141,7 @@ class InputDataActivity : AppCompatActivity() {
                     strCatatan
                 )
                 Toast.makeText(
-                    this@InputDataActivity,
+                    this@JemputSampahActivity,
                     "Pesanan Anda sedang diproses, cek di menu riwayat",
                     Toast.LENGTH_SHORT
                 ).show()

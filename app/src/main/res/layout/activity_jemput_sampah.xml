@@ -55,7 +55,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
-                app:cardCornerRadius="10dp"
+                app:cardCornerRadius="5dp"
                 app:cardElevation="5dp">
 
                 <LinearLayout
@@ -198,33 +198,6 @@
 
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="5dp"
-                            android:layout_weight="1"
-                            android:orientation="vertical">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Harga (per Kg)"
-                                android:textColor="@color/black"
-                                android:textSize="14sp" />
-
-                            <com.google.android.material.textfield.TextInputEditText
-                                android:id="@+id/inputHarga"
-                                android:layout_width="match_parent"
-                                android:layout_height="50dp"
-                                android:backgroundTint="@color/colorPrimary"
-                                android:focusableInTouchMode="false"
-                                android:hint="Rp. 1500/Kg"
-                                android:maxLines="1"
-                                android:textColor="@color/black"
-                                android:textSize="16sp" />
-
-                        </LinearLayout>
-
                     </LinearLayout>
 
                     <LinearLayout
@@ -333,15 +306,18 @@
                 android:id="@+id/btnCheckout"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_margin="30dp"
-                android:text="Jemput Sekarang"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/jemput_sekarang"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:theme="@style/Theme.MaterialComponents"
                 app:backgroundTint="@color/colorPrimary"
-                app:cornerRadius="50dp"
+                app:cornerRadius="10dp"
                 app:elevation="5dp"
                 app:rippleColor="@color/colorPrimaryDark" />
 

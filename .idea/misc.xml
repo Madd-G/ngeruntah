@@ -9,12 +9,15 @@
         <entry key="app/src/main/res/drawable/buttonshape.xml" value="0.2765" />
         <entry key="app/src/main/res/drawable/ic_back.xml" value="0.208" />
         <entry key="app/src/main/res/layout/activity_input_data.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/layout/activity_jemput_sampah.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_jenis_sampah.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login_page.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login_signup_page.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.271875" />
         <entry key="app/src/main/res/layout/activity_riwayat.xml" value="0.27447916666666666" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_profile2.xml" value="0.271875" />
         <entry key="app/src/main/res/layout/list_item_riwayat.xml" value="0.27447916666666666" />
         <entry key="app/src/main/res/layout/signin_signup.xml" value="0.1" />
         <entry key="app/src/main/res/layout/userngeruntah.xml" value="0.2125" />
@@ -28,5 +31,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.14583333333333334" />
+      </ProjectState>
+    </option>
   </component>
 </project>

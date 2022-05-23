@@ -28,7 +28,7 @@
             android:name=".view.MainActivity"
             android:exported="false"></activity>
         <activity
-            android:name=".view.InputDataActivity"
+            android:name=".view.JemputSampahActivity"
             android:exported="false"></activity>
         <activity
             android:name=".view.JenisSampahActivity"
@@ -37,7 +37,7 @@
             android:name=".view.RiwayatActivity"
             android:exported="false"></activity>
         <activity
-            android:name=".view.ProfileActivity"
+            android:name=".view.ProfileForFragment"
             android:exported="false" ></activity>
     </application>
 
