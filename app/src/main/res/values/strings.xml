@@ -29,5 +29,18 @@
     <string name="sign_in">Sign in</string>
     <string name="password">Password</string>
     <string name="forgot_your_password">Forgot your password?</string>
+    <string name="jemput_sampah">Jemput Sampah</string>
+    <string name="todo">TODO</string>
+    <string name="berat_kg">Berat (Kg)</string>
+    <string name="kategori_sampah">Kategori Sampah</string>
+    <string name="_5_kg">5 Kg</string>
+    <string name="mohon_isi_data_dibawah_ini_dengan_benar">Mohon isi data dibawah ini dengan benar</string>
+    <string name="catatan_tambahan_opsional">Catatan Tambahan (Opsional)</string>
+    <string name="masukan_catatan_tambahan_anda">Masukan catatan tambahan anda</string>
+    <string name="nama_pengguna">Nama Pengguna</string>
+    <string name="masukan_nama_lengkap">Masukan nama lengkap</string>
+    <string name="tanggal_penjemputan">Tanggal Penjemputan</string>
+    <string name="masukan_tanggal">Masukan tanggal</string>
+    <string name="alamat">Alamat</string>
 
 </resources>
