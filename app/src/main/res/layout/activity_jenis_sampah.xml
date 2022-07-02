@@ -27,7 +27,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_centerInParent="true"
-                    android:text="Jenis-jenis Sampah"
+                    android:text="@string/jenis_jenis_sampah"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
