@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.ngeruntah.R
+import com.example.ngeruntah.view.dataclass.DataRiwayat
 
 class HistoryAdapter(private val listData: ArrayList<DataRiwayat>) :
         RecyclerView.Adapter<HistoryAdapter.CardViewHolder>() {

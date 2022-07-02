@@ -1,4 +1,4 @@
-package com.example.ngeruntah.view
+package com.example.ngeruntah.view.dataclass
 
 data class DataRiwayat (
     var nama_pengguna: String = "",

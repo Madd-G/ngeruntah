@@ -1,5 +1,7 @@
 package com.example.ngeruntah.view
 
+import com.example.ngeruntah.view.dataclass.DataRiwayat
+
 object DataSample {
     private val nama_pengguna = arrayOf(
         "John Doe",

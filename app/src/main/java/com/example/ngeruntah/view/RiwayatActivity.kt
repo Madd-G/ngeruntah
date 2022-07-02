@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.ngeruntah.R
+import com.example.ngeruntah.view.dataclass.DataRiwayat
 import kotlinx.android.synthetic.main.activity_jenis_sampah.toolbar
 import kotlinx.android.synthetic.main.activity_riwayat.*
 
