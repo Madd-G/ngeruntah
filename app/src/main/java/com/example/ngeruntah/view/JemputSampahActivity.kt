@@ -16,7 +16,6 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.ngeruntah.R
 import kotlinx.android.synthetic.main.activity_jemput_sampah.*
 import kotlinx.android.synthetic.main.activity_jenis_sampah.toolbar
-import java.text.DecimalFormat
 import java.text.SimpleDateFormat
 import java.util.*
 
