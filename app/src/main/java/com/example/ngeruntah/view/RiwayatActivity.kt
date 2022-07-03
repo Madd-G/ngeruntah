@@ -33,12 +33,12 @@ class RiwayatActivity : AppCompatActivity() {
         list.addAll(DataSampleRiwayat.listData)
         apiService = Repository.getDataAPI().create(ServiceInterface::class.java)
         apiService.getData().enqueue(object : Callback<List<DataRiwayat>> {
-            override fun onResponse(
+            fun onResponse(
                 call: retrofit2.Call<List<DataRiwayat>>,
                 response: Response<List<DataRiwayat>>
             ) {
             }
-            override fun onFailure(call: retrofit2.Call<List<DataRiwayat>>, t: Throwable) {
+            fun onFailure(call: retrofit2.Call<List<DataRiwayat>>, t: Throwable) {
             }
 
         })
