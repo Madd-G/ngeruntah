@@ -13,7 +13,6 @@ import com.example.ngeruntah.view.network.Repository
 import kotlinx.android.synthetic.main.activity_jenis_sampah.toolbar
 import kotlinx.android.synthetic.main.activity_riwayat.*
 import retrofit2.Response
-import javax.security.auth.callback.Callback
 
 class RiwayatActivity : AppCompatActivity() {
     lateinit var rvData: RecyclerView
