@@ -14,9 +14,9 @@ object DataSampleRiwayat {
         "Anorganik"
     )
     private val berat = arrayOf(
-        "2",
+        "2.0",
         "1.5",
-        "1",
+        "1.0",
         "2.5"
     )
     private val tanggal = arrayOf(
