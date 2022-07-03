@@ -7,12 +7,6 @@ object DataSampleRiwayat {
         "Dwi Puspa",
         "Nawang Anggita"
     )
-    private val jenis_sampah = arrayOf(
-        "Organik",
-        "Anorganik",
-        "Organik",
-        "Anorganik"
-    )
     private val berat = arrayOf(
         "2.0",
         "1.5",
@@ -20,10 +14,10 @@ object DataSampleRiwayat {
         "2.5"
     )
     private val tanggal = arrayOf(
-        "1-07-22",
-        "2-07-22",
-        "3-07-22",
-        "4-07-22"
+        "1 juli 22",
+        "2 juli 22",
+        "3 juli 22",
+        "4 juli 22"
     )
     private val alamat = arrayOf(
         "Purwokerto selatan",
@@ -44,12 +38,11 @@ object DataSampleRiwayat {
             val listDataku = arrayListOf<DataRiwayat>()
             for (position in nama_pengguna.indices) {
                 val data = DataRiwayat()
-                data.nama_pengguna = nama_pengguna[position]
-                data.jenis_sampah = jenis_sampah[position]
-                data.berat = berat[position]
-                data.tanggal = tanggal[position]
-                data.alamat = alamat[position]
-                data.catatan = catatan[position]
+                data.name = nama_pengguna[position]
+                data.weight = berat[position]
+                data.date = tanggal[position]
+                data.address = alamat[position]
+                data.note = catatan[position]
                 listDataku.add(data)
             }
             return listDataku
