@@ -2,12 +2,16 @@ package com.example.ngeruntah.view
 
 object DataSampleProfile {
     private val username = arrayOf(
+        "chandra ayunda"
     )
     private val email = arrayOf(
+        "candraayunda@gmail.com"
     )
     private val no_telepon = arrayOf(
+        "09876543345678"
     )
     private val jenis_kelamin = arrayOf(
+        "perempuan"
     )
     val listData: ArrayList<DataProfile>
         get() {
