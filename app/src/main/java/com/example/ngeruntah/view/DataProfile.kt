@@ -1,4 +1,4 @@
-package com.example.ngeruntah.view.dataclass
+package com.example.ngeruntah.view
 
 data class DataProfile(
     var username: String = "",
