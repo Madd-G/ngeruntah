@@ -1,5 +1,7 @@
 package com.example.ngeruntah.view.network
 
+import com.example.ngeruntah.view.DataRiwayat
+import com.example.ngeruntah.view.DataSampleRiwayat
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
@@ -29,5 +31,4 @@ class Repository {
         }
     }
 
-}
 }

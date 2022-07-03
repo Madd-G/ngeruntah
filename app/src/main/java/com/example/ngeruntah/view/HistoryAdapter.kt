@@ -1,11 +1,13 @@
 package com.example.ngeruntah.view
 
+import ServiceInterface
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.ngeruntah.R
+import com.example.ngeruntah.view.network.Repository
 
 class HistoryAdapter(private val listData: ArrayList<DataRiwayat>) :
         RecyclerView.Adapter<HistoryAdapter.CardViewHolder>() {
@@ -15,6 +17,7 @@ class HistoryAdapter(private val listData: ArrayList<DataRiwayat>) :
                 var tvTanggal: TextView = itemView.findViewById(R.id.tvTanggal)
                 var tvAddress: TextView = itemView.findViewById(R.id.tvAddress)
                 var tvCatatan: TextView = itemView.findViewById(R.id.tvStatus)
+                var apiIterface: ServiceInterface? = Repository.getDataAPI().create(ServiceInterface::class.java)
         }
 
 

@@ -7,11 +7,11 @@ object DataSampleRiwayat {
         "Dwi Puspa",
         "Nawang Anggita"
     )
-    private val berat = arrayOf(
-        "2.0",
-        "1.5",
-        "1.0",
-        "2.5"
+    private val berat = intArrayOf(
+        2,
+        1,
+        1,
+        5
     )
     private val tanggal = arrayOf(
         "1 juli 22",
