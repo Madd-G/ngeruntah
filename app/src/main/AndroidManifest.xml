@@ -27,19 +27,19 @@
         </activity>
         <activity
             android:name=".view.MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".view.JemputSampahActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".view.JenisSampahActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".view.RiwayatActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".view.ProfileForFragment"
-            android:exported="false" ></activity>
+            android:exported="false" />
     </application>
 
 </manifest>
