@@ -32,6 +32,10 @@ object DataSampleRiwayat {
         "purwokerto timur"
     )
     private val catatan = arrayOf(
+        "Baguss",
+        "good",
+        "not bad",
+        "cool"
 
     )
     val listData: ArrayList<DataRiwayat>
