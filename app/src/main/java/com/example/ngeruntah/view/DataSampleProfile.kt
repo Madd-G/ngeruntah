@@ -8,7 +8,7 @@ object DataSampleProfile {
         "candraayunda@gmail.com"
     )
     private val no_telepon = arrayOf(
-        "09876543345678"
+        "098765433456"
     )
     private val jenis_kelamin = arrayOf(
         "perempuan"
