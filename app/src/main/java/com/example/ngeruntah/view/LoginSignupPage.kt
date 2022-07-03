@@ -32,11 +32,11 @@ class LoginSignupPage : AppCompatActivity() {
     lateinit var btnSubmit: Button
 
     lateinit var inputDataViewModel: InputDataViewModel
-    lateinit var strUsername: String
-    lateinit var strEmail: String
-    lateinit var strNotelepon: String
-    lateinit var strJeniskelamin: String
-    lateinit var strPassword: String
+    lateinit var etUsername: EditText
+    lateinit var etEmail: EditText
+    lateinit var etNotelepon: EditText
+    lateinit var etJeniskelamin: EditText
+    lateinit var etPassword: EditText
     lateinit var apiService: ServiceInterface
     lateinit var btnadd: View
 
@@ -84,13 +84,13 @@ class LoginSignupPage : AppCompatActivity() {
 
         btnadd = findViewById(R.id.btnCheckout)
         btnadd.setOnClickListener {
-            val array = DataSignup()
-            array.username = strUsername
-            array.email = strEmail
-            array.no_telepon= strNotelepon
-            array.jenis_kelamin = strJeniskelamin
-            array.password = strPassword
-            apiService.postData(array).enqueue(object : Callback<DataSignup> {
+            val arraySignup = DataSignup()
+            arraySignup.username = etUsername.text.toString()
+            arraySignup.email = etEmail.text.toString()
+            arraySignup.no_telepon= etNotelepon.text.toString()
+            arraySignup.jenis_kelamin = etJeniskelamin.text.toString()
+            arraySignup.password = etPassword.text.toString()
+            apiService.postData(arraySignup).enqueue(object : Callback<DataSignup> {
                 override fun onResponse(call: Call<DataSignup>, response: Response<DataSignup>) {
                     startActivity(Intent(this@LoginSignupPage, LoginSignupPage::class.java))
                     Toast.makeText(baseContext, "Add Data Success", Toast.LENGTH_SHORT).show()
@@ -106,11 +106,11 @@ class LoginSignupPage : AppCompatActivity() {
         }
 
         btnSubmit = findViewById(R.id.btnCheckout)
-        strUsername = findViewById(R.id.username)
-        strEmail = findViewById(R.id.email)
-        strNotelepon = findViewById(R.id.no_telepon)
-        strJeniskelamin = findViewById(R.id.jenis_kelamin)
-        strPassword = findViewById(R.id.password)
+        etUsername = findViewById(R.id.username)
+        etEmail = findViewById(R.id.email)
+        etNotelepon = findViewById(R.id.no_telepon)
+        etJeniskelamin = findViewById(R.id.jenis_kelamin)
+        etPassword = findViewById(R.id.password)
         apiService = Repository.getDataAPI().create(ServiceInterface::class.java)
 
     }

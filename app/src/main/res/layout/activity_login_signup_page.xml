@@ -106,6 +106,7 @@
                             <EditText
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
+                                android:autofillHints=""
                                 android:drawableStart="@drawable/ic_email_light_blue_24dp"
                                 android:drawableLeft="@drawable/ic_email_light_blue_24dp"
                                 android:drawablePadding="16dp"
@@ -113,8 +114,7 @@
                                 android:inputType="textEmailAddress"
                                 android:maxLines="1"
                                 android:textColor="@android:color/black"
-                                android:textSize="16sp"
-                                android:autofillHints="" />
+                                android:textSize="16sp" />
                         </com.google.android.material.textfield.TextInputLayout>
 
                         <com.google.android.material.textfield.TextInputLayout
@@ -127,6 +127,7 @@
                                 android:id="@+id/password"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
+                                android:autofillHints=""
                                 android:drawableStart="@drawable/ic_lock_light_blue_24dp"
                                 android:drawableLeft="@drawable/ic_lock_light_blue_24dp"
                                 android:drawablePadding="16dp"
@@ -134,8 +135,7 @@
                                 android:inputType="textPassword"
                                 android:maxLines="1"
                                 android:textColor="@android:color/black"
-                                android:textSize="16sp"
-                                android:autofillHints="" />
+                                android:textSize="16sp" />
                         </com.google.android.material.textfield.TextInputLayout>
 
                         <Button
@@ -167,7 +167,6 @@
                             android:textColor="#4f4f4f"
                             android:textSize="16sp"
                             android:textStyle="bold" />
-
 
 
                     </LinearLayout>

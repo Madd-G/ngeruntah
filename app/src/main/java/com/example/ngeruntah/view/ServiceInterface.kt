@@ -1,4 +1,5 @@
 import com.example.ngeruntah.view.DataRiwayat
+import com.example.ngeruntah.view.DataSignup
 import retrofit2.Call
 import retrofit2.http.*
 
@@ -8,6 +9,9 @@ interface ServiceInterface {
 
     @POST("/create_order/")
     fun postData(@Body dataRiwayat: DataRiwayat) : Call<DataRiwayat>
+
+    @POST("/signup/")
+    fun postData(@Body dataSignup: DataSignup) : Call<DataSignup>
 
 //    @FormUrlEncoded
 //    @HTTP(method="PUT", path="/update_order", hasBody = true)
