@@ -1,7 +1,6 @@
 package com.example.ngeruntah.view
 
 import android.telecom.Call
-import retrofit2.Call
 import retrofit2.http.*
 
 class ServiceInterface {
