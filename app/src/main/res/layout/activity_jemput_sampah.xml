@@ -27,7 +27,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_centerInParent="true"
-                    android:text="Jemput Sampah"
+                    android:text="@string/jemput_sampah"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -74,7 +74,8 @@
                             android:layout_height="30dp"
                             android:layout_gravity="center"
                             android:layout_marginStart="20dp"
-                            android:src="@drawable/ic_info" />
+                            android:src="@drawable/ic_info"
+                            android:contentDescription="@string/todo" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -82,7 +83,7 @@
                             android:layout_gravity="center"
                             android:layout_marginStart="20dp"
                             android:layout_marginEnd="20dp"
-                            android:text="Mohon isi data dibawah ini dengan benar"
+                            android:text="@string/mohon_isi_data_dibawah_ini_dengan_benar"
                             android:textColor="@color/white"
                             android:textSize="18sp" />
 
@@ -99,7 +100,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Nama Pengguna"
+                            android:text="@string/nama_pengguna"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
@@ -108,7 +109,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:backgroundTint="@color/colorPrimary"
-                            android:hint="Masukan nama lengkap"
+                            android:hint="@string/masukan_nama_lengkap"
                             android:imeOptions="actionNext"
                             android:inputType="textPersonName"
                             android:maxLines="1"
@@ -134,7 +135,7 @@
                                 android:id="@+id/tvKategori"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Kategori Sampah"
+                                android:text="@string/kategori_sampah"
                                 android:textColor="@color/black"
                                 android:textSize="14sp" />
 
@@ -156,7 +157,8 @@
                                 android:layout_centerVertical="true"
                                 android:layout_gravity="center"
                                 android:layout_marginTop="20dp"
-                                android:src="@drawable/ic_spinner" />
+                                android:src="@drawable/ic_spinner"
+                                android:contentDescription="TODO" />
 
                         </RelativeLayout>
 
@@ -168,7 +170,8 @@
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginEnd="20dp"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:baselineAligned="false">
 
                         <LinearLayout
                             android:layout_width="0dp"
@@ -180,7 +183,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Berat (Kg)"
+                                android:text="@string/berat_kg"
                                 android:textColor="@color/black"
                                 android:textSize="14sp" />
 
@@ -189,7 +192,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="50dp"
                                 android:backgroundTint="@color/colorPrimary"
-                                android:hint="5 Kg"
+                                android:hint="@string/_5_kg"
                                 android:imeOptions="actionNext"
                                 android:inputType="number"
                                 android:maxLines="1"
@@ -216,7 +219,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Tanggal Penjemputan"
+                                android:text="@string/tanggal_penjemputan"
                                 android:textColor="@color/black"
                                 android:textSize="14sp" />
 
@@ -226,7 +229,7 @@
                                 android:layout_height="50dp"
                                 android:backgroundTint="@color/colorPrimary"
                                 android:focusableInTouchMode="false"
-                                android:hint="Masukan tanggal"
+                                android:hint="@string/masukan_tanggal"
                                 android:imeOptions="actionNext"
                                 android:inputType="date"
                                 android:maxLines="1"
@@ -249,7 +252,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Alamat"
+                            android:text="@string/alamat"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
@@ -280,7 +283,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Catatan Tambahan (Opsional)"
+                            android:text="@string/catatan_tambahan_opsional"
                             android:textColor="@color/black"
                             android:textSize="14sp" />
 
@@ -289,7 +292,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:backgroundTint="@color/colorPrimary"
-                            android:hint="Masukan catatan tambahan anda"
+                            android:hint="@string/masukan_catatan_tambahan_anda"
                             android:imeOptions="actionDone"
                             android:inputType="text"
                             android:maxLines="1"

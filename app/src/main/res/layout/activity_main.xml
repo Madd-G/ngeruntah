@@ -7,7 +7,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:src="@drawable/bg_rounded_bottom" />
+        android:src="@drawable/bg_rounded_bottom"
+        android:contentDescription="TODO" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,14 +46,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Selamat Datang"
+                    android:text="@string/selamat_datang"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="John Doe"
+                    android:text="@string/john_doe"
                     android:textColor="@color/white"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -76,7 +77,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/ic_location" />
+                android:src="@drawable/ic_location"
+                android:contentDescription="TODO" />
 
             <TextView
                 android:id="@+id/tvCurrentLocation"
@@ -88,7 +90,7 @@
                 android:ellipsize="marquee"
                 android:marqueeRepeatLimit="marquee_forever"
                 android:singleLine="true"
-                android:text="Lokasi Anda"
+                android:text="@string/lokasi_anda"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -120,7 +122,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Tukarkan sampah plastikmu sekarang!"
+                        android:text="@string/tukarkan_sampah_plastikmu_sekarang"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -129,7 +131,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Aplikasi Bank Sampah adalah solusi untuk menyelesaikan masalah sosial tentang kebersihan lingkungan."
+                        android:text="@string/aplikasi_bank_sampah_adalah_solusi_untuk_menyelesaikan_masalah_sosial_tentang_kebersihan_lingkungan"
                         android:textColor="@color/black"
                         android:textSize="12sp" />
 
@@ -142,7 +144,8 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerInParent="true"
                     android:padding="30dp"
-                    android:src="@drawable/ic_logo" />
+                    android:src="@drawable/ic_logo"
+                    android:contentDescription="TODO" />
 
             </RelativeLayout>
 
@@ -152,7 +155,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:text="Menu Kategori"
+            android:text="@string/menu_kategori"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
