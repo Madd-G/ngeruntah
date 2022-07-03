@@ -11,7 +11,12 @@ class InputDataViewModel(application: Application) : AndroidViewModel(applicatio
         harga: Int,
         tanggal: String,
         alamat: String,
-        catatan: String
+        catatan: String,
+        username:String,
+        email:String,
+        no_telepon:String,
+        jenis_kelamin:String,
+        password:String
     ) {
     }
 }
