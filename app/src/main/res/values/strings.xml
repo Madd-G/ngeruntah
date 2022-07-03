@@ -37,8 +37,6 @@
     <string name="mohon_isi_data_dibawah_ini_dengan_benar">Mohon isi data dibawah ini dengan benar</string>
     <string name="catatan_tambahan_opsional">Catatan Tambahan (Opsional)</string>
     <string name="masukan_catatan_tambahan_anda">Masukan catatan tambahan anda</string>
-    <string name="nama_pengguna">Nama Pengguna</string>
-    <string name="masukan_nama_lengkap">Masukan nama lengkap</string>
     <string name="tanggal_penjemputan">Tanggal Penjemputan</string>
     <string name="masukan_tanggal">Masukan tanggal</string>
     <string name="alamat">Alamat</string>
