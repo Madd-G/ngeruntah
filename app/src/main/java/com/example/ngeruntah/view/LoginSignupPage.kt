@@ -82,7 +82,7 @@ class LoginSignupPage : AppCompatActivity() {
             forgot_password.visibility = View.INVISIBLE
         }
 
-        btnadd = findViewById(R.id.btnCheckout)
+      /*  btnadd = findViewById(R.id.btnCheckout)
         btnadd.setOnClickListener {
             val arraySignup = DataSignup()
             arraySignup.username = etUsername.text.toString()
@@ -113,5 +113,6 @@ class LoginSignupPage : AppCompatActivity() {
         etPassword = findViewById(R.id.password)
         apiService = Repository.getDataAPI().create(ServiceInterface::class.java)
 
+       */
     }
 }

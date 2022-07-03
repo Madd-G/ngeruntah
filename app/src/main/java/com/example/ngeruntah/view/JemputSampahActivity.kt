@@ -25,14 +25,6 @@ class JemputSampahActivity : AppCompatActivity() {
     lateinit var etTanggal: EditText
     lateinit var etAlamat: EditText
     lateinit var etCatatan: EditText
-    lateinit var strBerat: String
-    lateinit var strTanggal: String
-    lateinit var strAlamat: String
-    lateinit var strCatatan: String
-    lateinit var strKategoriSelected: String
-    lateinit var strHargaSelected: String
-    lateinit var strKategori: Array<String>
-    lateinit var strHarga: Array<String>
     lateinit var apiService: ServiceInterface
     lateinit var btnadd: View
 
