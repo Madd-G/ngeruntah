@@ -32,7 +32,7 @@ object DataSampleRiwayat {
         "purwokerto timur"
     )
     private val catatan = arrayOf(
-        "semua bisa dijual"
+        "semua bisa dijual",
         "Baguss",
         "good",
         "not bad",
