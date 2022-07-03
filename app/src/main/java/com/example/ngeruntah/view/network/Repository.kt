@@ -6,7 +6,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
-const val BASEURL = "http://192.168.27.219/REST_API_CI-main/index.php/ApiKu/"
+const val BASEURL = "https://ngeruntah.herokuapp.com/"
 class Repository {
     companion object{
         private var retrofit: Retrofit? =null

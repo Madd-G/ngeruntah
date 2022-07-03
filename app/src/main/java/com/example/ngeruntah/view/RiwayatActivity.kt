@@ -3,6 +3,7 @@ package com.example.ngeruntah.view
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -13,6 +14,12 @@ import kotlinx.android.synthetic.main.activity_riwayat.*
 class RiwayatActivity : AppCompatActivity() {
     private lateinit var rvData: RecyclerView
     private var list: ArrayList<DataRiwayat> = arrayListOf()
+
+    lateinit var rvdata: RecyclerView
+    lateinit var apiService: ServiceInterface
+    private var ambilDatabase: ArrayList<DataRiwayat> = arrayListOf()
+    lateinit var btnAdd: View
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_riwayat)

@@ -1,10 +1,9 @@
 package com.example.ngeruntah.view
 
 data class DataRiwayat (
-    var nama_pengguna: String = "",
-    var jenis_sampah: String = "",
-    var berat: Double = 0.0,
-    var tanggal: String = "",
-    var alamat: String = "",
-    var catatan: String = "",
+    var name: String = "",
+    var weight: String = "",
+    var date: Double = 0.0,
+    var address: String = "",
+    var note: String = "",
 )
