@@ -9,6 +9,15 @@
         <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/layout/activity_login_signup_page.xml" value="0.1" />
         <entry key="..\:/Users/ASUS/ngeruntahtubes/ngeruntah/app/src/main/res/layout/activity_main.xml" value="0.12239583333333333" />
         <entry key="..\:/Users/Chandra/TUBES PPB/ngeruntah/app/src/main/res/layout/activity_input_data.xml" value="0.25" />
+<<<<<<< HEAD
+=======
+        <entry key="..\:/Users/Chandra/TUBES PPB/ngeruntah/app/src/main/res/layout/activity_jemput_sampah.xml" value="0.1094224924012158" />
+        <entry key="..\:/Users/Chandra/TUBES PPB/ngeruntah/app/src/main/res/layout/activity_jenis_sampah.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/Chandra/TUBES PPB/ngeruntah/app/src/main/res/layout/activity_login_signup_page.xml" value="0.1" />
+        <entry key="..\:/Users/Chandra/TUBES PPB/ngeruntah/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Chandra/TUBES PPB/ngeruntah/app/src/main/res/layout/activity_riwayat.xml" value="0.151268115942029" />
+        <entry key="..\:/Users/Chandra/TUBES PPB/ngeruntah/app/src/main/res/layout/list_item_riwayat.xml" value="0.1" />
+>>>>>>> 232f6c1a63ca31396926bb62d1372d9e7408cfa3
         <entry key="app/src/main/res/drawable/bg_rounded_bottom.xml" value="0.207" />
         <entry key="app/src/main/res/drawable/bordershape.xml" value="0.1715" />
         <entry key="app/src/main/res/drawable/buttonshape.xml" value="0.2765" />

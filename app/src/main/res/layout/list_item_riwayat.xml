@@ -76,13 +76,5 @@
 
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageDelete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end|bottom"
-        android:layout_margin="15dp"
-        android:src="@drawable/ic_delete"
-        app:tint="@color/colorPrimary" />
 
 </androidx.cardview.widget.CardView>
