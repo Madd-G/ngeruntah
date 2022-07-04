@@ -10,5 +10,5 @@
 * Dwi Puspa Martiyaningih (19102214)
 * Nawang Anggita Winanti (19102244)
 
-github API: https://github.com/Madd-G/ngeruntah-API
-link API: https://ngeruntah.herokuapp.com/docs
+#### API repository: https://github.com/Madd-G/ngeruntah-API
+#### API link: https://ngeruntah.herokuapp.com/docs
