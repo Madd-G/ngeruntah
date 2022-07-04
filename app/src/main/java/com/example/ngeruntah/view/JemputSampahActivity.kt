@@ -10,6 +10,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.ngeruntah.R
 import com.example.ngeruntah.view.network.Repository
 import kotlinx.android.synthetic.main.activity_jemput_sampah.*
+import kotlinx.android.synthetic.main.activity_jemput_sampah.btnCheckout
+import kotlinx.android.synthetic.main.activity_riwayat.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -79,6 +81,10 @@ class JemputSampahActivity : AppCompatActivity() {
                 tanggalJemput[Calendar.MONTH],
                 tanggalJemput[Calendar.DAY_OF_MONTH]
             ).show()
+        }
+        btnCheckout.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
     }
 }
