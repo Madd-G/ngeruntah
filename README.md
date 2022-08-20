@@ -12,3 +12,5 @@
 
 #### API repository: https://github.com/Madd-G/ngeruntah-API
 #### API link: https://ngeruntah.herokuapp.com/docs
+
+#### Repository Final project: https://github.com/Madd-G/ngeruntah-2 
